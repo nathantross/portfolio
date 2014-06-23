@@ -1,1 +1,131 @@
-body { padding-top:30px; }
+body { 
+  background-color: rgba( 240, 240, 240, 1);;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #444;
+}
+
+a, a:visited, a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgba( 21, 152, 193, 1 );
+  padding: 20px;
+  padding-left: 40px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  border-bottom: 1px;
+  border-color: rgba( 0, 0, 0, 0.1 );
+  opacity: 1.0;
+  z-index: 999;
+
+}
+
+.navbar a {
+  color: #666;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+.navbar a:hover {
+  color: #333;
+}
+
+.navbar-icons {
+  text-align: right;
+  margin-top: -25px;
+  padding-right: 80px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  color: #111;
+  font-weight: 700;
+  font-size: 30px !important;
+}
+
+.container {
+}
+
+.main {
+  /*background: url(https://s3-us-west-2.amazonaws.com/nathantross/large-image.png) no-repeat center center fixed; */
+  background-color: rgba( 21, 152, 193, 1);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 200px;
+  height: 100% !important;
+}
+
+.work-section {
+  padding: 100px;
+  text-align: center;
+  z-index: 9;
+}
+
+.work-item {
+  float: left;
+  padding: 20px;
+}
+
+.work-item a {
+  margin-bottom: 10px;
+}
+
+.work-item img:hover {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  border: 6px;
+  margin: -6px;
+  border-style: solid;
+  border-color: rgba( 199, 199, 199, 1 );
+}
+
+.work-item-title {
+}
+
+.work-item-title:hover {
+  text-decoration: underline;
+}
+
+.work-item-skill {
+  font-size: 10px;
+  margin-top: -10px;
+}
+
+
+
+
+
+
